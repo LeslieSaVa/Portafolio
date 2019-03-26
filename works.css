@@ -1,0 +1,22 @@
+#works h3, h4{
+    text-align: center;
+    color:rgba(255,255,255,0.8);
+}
+
+#works .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#works article{
+    margin: 15px;
+}
+
+#works img{
+    width: 100%;
+    max-width: 280px;
+}
+.title1{
+    margin-top:2%;
+}
