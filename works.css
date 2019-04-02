@@ -7,10 +7,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
+    padding-top: 3%;
 }
 
 #works article{
-    margin: 15px;
+    margin: auto;
+    display: block;
 }
 
 #works img{
@@ -19,4 +22,18 @@
 }
 .title1{
     margin-top:2%;
+}
+#works{
+    height: 1860px;
+    padding-top: 800px;
+    display: block;
+    margin: auto;
+    background-color:#cfd8dc;
+}
+.flex-container{
+    display: flex;
+}
+.gg {
+    overflow-x: auto;
+    white-space: nowrap;
 }
