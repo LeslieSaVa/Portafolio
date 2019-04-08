@@ -60,11 +60,13 @@ body > header {
     margin: 15px auto;
 }
 .logo {
-    display: inline-block;
-    font-size: 22px;
-    margin-top: 10px;
+    /* display: inline-block;
+    font-size: 22px; */
+    height: 100%;
+    position: absolute;
+    top: 0;
     margin-left: 20px;
-    height: 110px;
+
 }
 .navbar-toggle {
     position: absolute;
@@ -150,13 +152,13 @@ color:  #392338;
 margin-top: 20% !important;
 }
 
-h3 {
+/* h3 {
 font-size: 1.65rem;
 line-height: 2rem;
 text-transform: uppercase;
 letter-spacing: 1px; 
 color:  #392338;
-}
+} */
 
 .container {
 margin: 0 auto;
@@ -289,15 +291,15 @@ footer .contenedor{
         width: 1000px;
     }
 }
-.continer1{
+/* .continer1{
     position: relative;
     width: 100%;
     height: 620px;
     overflow: hidden;
     perspective: none !important;
     z-index: 1000;
-}
-.probando{
+} */
+/* .probando{
     margin: 0 0 40px;
     padding: 0;
     position: relative;
@@ -306,12 +308,12 @@ footer .contenedor{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
-.lista{
+} */
+/* .lista{
     list-style: none;
     margin: 0 0 40px;
-}
-ul li .slide {
+} */
+/* ul li .slide {
     position: absolute;
     top: 0;
     left: 0;
@@ -367,8 +369,8 @@ ul li .slide img
 ul li input[type="radio"]:checked ~ .slide img 
 {
     animation: animate 40s linear infinite;
-}
-@keyframes animate
+} */
+/* @keyframes animate
 {
     0%
     {
@@ -382,9 +384,113 @@ ul li input[type="radio"]:checked ~ .slide img
     {
         transform: scale(1);
     }
+} */
+
+.container22{
+    height: 1220px;
+    width: 100%;
+    background-color:#D5DDE8;
+}
+.container2{
+    position: relative;
+    width: 1000px;
+    margin: 60px auto 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
 }
 
+.container2 .card{
+    position: relative;
+    background: #000;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.container2 .card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0,0,0,.2);
+}
+.poke-img{
+    width: 100%;
+    height: 100%;
+    
+}
+.container2 .card .img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
 
+}
+.container2 .card:hover .img-box{
+    opacity: 0.5;
+}
+.container2 .card .img-box img{
+    width: 100%;
+}
+.container2 .card .content{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: -100%;
+    padding: 20px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    transform: 0.5s;
+}
+.container2 .card:hover .content{
+    bottom: 0;
 
+}
+.container2 .card:nth-child(1) .content{
+    background: linear-gradient(0deg,#b39ddb, transparent);
 
-
+}
+.container2 .card:nth-child(2) .content{
+    background: linear-gradient(0deg,#b39ddb, transparent);
+    
+}
+.container2 .card:nth-child(3) .content{
+    background: linear-gradient(0deg,#b39ddb, transparent);
+    
+}
+.container2 .card .content h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #e1bee7;
+    font-size: 22px;
+}
+.container2 .card .content p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.container2 .card .content ul{
+    display: flex;
+    margin: 20px 0 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.container2 .card .content ul li{
+    list-style: none;
+}
+.container2 .card .content ul li a{
+    color: #fff;
+    padding: 0 10px;
+    font-size: 28px;
+    transition: 0.5s;
+    margin-left: 20%;
+}
+.container22 h3{
+    text-align: center;
+    color: #392338;
+    margin-top: 3%;
+}

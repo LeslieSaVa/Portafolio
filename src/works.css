@@ -1,3 +1,5 @@
+
+
 #works h3, h4{
     text-align: center;
     /* color:rgba(255,255,255,0.8); */
@@ -21,20 +23,36 @@
     width: 100%;
     max-width: 280px;
 }
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 .title1{
-    margin-top:2%;
+    margin-top:-6%;
+    /* font-family: "Oswald", sans; */
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D5DDE8;
+    font-size: 18px;
+}
+.presentacion{
+    margin-left: 20%;
 }
 #works{
-    height: 1400px;
+    height: 1350px;
     padding-top: 800px;
     display: block;
     margin: auto;
-    background-color:#cfd8dc;
+    background-color:#392338 !important;
+    color: #D5DDE8;
 }
 .flex-container{
     display: flex;
 }
-.gg {
+/* .gg {
     overflow-x: auto;
     white-space: nowrap;
+} */
+.mypicture{
+    position: absolute;
+    left: 30px;
+    top: 1300px;
+    border-radius: 50%;
 }
