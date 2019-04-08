@@ -443,9 +443,11 @@ ul li input[type="radio"]:checked ~ .slide img
     box-sizing: border-box;
     text-align: center;
     transform: 0.5s;
+    z-index: -1;
 }
 .container2 .card:hover .content{
     bottom: 0;
+    z-index: 3;
 
 }
 .container2 .card:nth-child(1) .content{
