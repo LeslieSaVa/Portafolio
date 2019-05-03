@@ -528,5 +528,24 @@ a.button {
     border-radius: 5px;
     transition: all 0.2s ;
 }
+.habilities{
+    font-size: 6.5rem;
+    color: white;
+}
+.title-habilities{
+    color: #D5DDE8;
+    text-align: center;
+    margin-top: -13%;
+    margin-bottom: 5%;
+    font-size: 30px !important;
+}
+.gg{
+    display: inline-block;
+}
+.pp{
+    color:  #D5DDE8;
+    margin-bottom: 17%;
+    margin-top: 7%;
+}
 
 
